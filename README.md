@@ -1,4 +1,2 @@
 # Voice_Identification
-Jupyter Notebook was used for data analysis.
-
-Used SVC and Grid search for male and female voice identification and compared imporvement between the two models.
+Jupyter Notebook was used for supervised learning of voice.csv to identify male and female using SVC and GridSearch.
