@@ -13,12 +13,6 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-# In[ ]:
-
-
-
-
-
 # In[2]:
 
 
@@ -145,14 +139,10 @@ grid_predictions = grid.predict(X_test)
 print(f"Accuracy Score: {metrics.accuracy_score(y_test, grid_predictions)}")
 
 
-# In[22]:
+# In[20]:
 
 
 print(f"Changing from a SVC model to a GridSearch model improved accuracy  by {100 *(metrics.accuracy_score(y_test, grid_predictions) -metrics.accuracy_score(y_test,y_pred))}%")
-
-
-# In[ ]:
-
 
 
 
